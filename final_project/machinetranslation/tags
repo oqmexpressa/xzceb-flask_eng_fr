@@ -1,0 +1,24 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/alber/Documents/git/xzceb-flask_eng_fr/final_project/machinetranslation/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210905.0/
+TestEnglishToFrench	tests/tests.py	/^class TestEnglishToFrench(unittest.TestCase):$/;"	c
+TestFrenchToEnglish	tests/tests.py	/^class TestFrenchToEnglish(unittest.TestCase):$/;"	c
+api_key	translator.py	/^api_key = os.environ.get('apikey')$/;"	v
+authenticator	translator.py	/^authenticator = IAMAuthenticator(api_key)$/;"	v
+english_to_french	translator.py	/^def english_to_french(string):$/;"	f
+env_path	translator.py	/^env_path = os.path.join(os.path.dirname(__file__), '.env')$/;"	v
+french_to_english	translator.py	/^def french_to_english(string):$/;"	f
+language_translator	translator.py	/^language_translator = LanguageTranslatorV3($/;"	v
+test_null_input	tests/tests.py	/^    def test_null_input(self):$/;"	m	class:TestEnglishToFrench
+test_null_input	tests/tests.py	/^    def test_null_input(self):$/;"	m	class:TestFrenchToEnglish
+test_translation	tests/tests.py	/^    def test_translation(self):$/;"	m	class:TestEnglishToFrench
+test_translation	tests/tests.py	/^    def test_translation(self):$/;"	m	class:TestFrenchToEnglish
+url	translator.py	/^url = os.environ['url']$/;"	v

@@ -1,0 +1,30 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/alber/Documents/git/xzceb-flask_eng_fr/final_project/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20210905.0/
+TestEnglishToFrench	machinetranslation/tests/tests.py	/^class TestEnglishToFrench(unittest.TestCase):$/;"	c
+TestFrenchToEnglish	machinetranslation/tests/tests.py	/^class TestFrenchToEnglish(unittest.TestCase):$/;"	c
+api_key	machinetranslation/translator.py	/^api_key = os.environ.get('apikey')$/;"	v
+app	server.py	/^app = Flask("Web Translator")$/;"	v
+authenticator	machinetranslation/translator.py	/^authenticator = IAMAuthenticator(api_key)$/;"	v
+englishToFrench	server.py	/^def englishToFrench():$/;"	f
+english_to_french	machinetranslation/translator.py	/^def english_to_french(string):$/;"	f
+env_path	machinetranslation/translator.py	/^env_path = os.path.join(os.path.dirname(__file__), '.env')$/;"	v
+frenchToEnglish	server.py	/^def frenchToEnglish():$/;"	f
+french_to_english	machinetranslation/translator.py	/^def french_to_english(string):$/;"	f
+language_translator	machinetranslation/translator.py	/^language_translator = LanguageTranslatorV3($/;"	v
+renderIndexPage	server.py	/^def renderIndexPage():$/;"	f
+test_null_input	machinetranslation/tests/tests.py	/^    def test_null_input(self):$/;"	m	class:TestEnglishToFrench
+test_null_input	machinetranslation/tests/tests.py	/^    def test_null_input(self):$/;"	m	class:TestFrenchToEnglish
+test_translation	machinetranslation/tests/tests.py	/^    def test_translation(self):$/;"	m	class:TestEnglishToFrench
+test_translation	machinetranslation/tests/tests.py	/^    def test_translation(self):$/;"	m	class:TestFrenchToEnglish
+textToTranslate	templates/index.html	/^            <input type="textarea" class="form-control" id="textToTranslate">$/;"	I
+translated_text	templates/index.html	/^        <div id="translated_text" style="padding: 25px 25px 25px 25px;"><\/div>$/;"	I
+url	machinetranslation/translator.py	/^url = os.environ['url']$/;"	v
